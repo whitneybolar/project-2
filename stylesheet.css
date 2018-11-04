@@ -1,14 +1,14 @@
 @font-face {
   font-family: "museo 300";
   src: url("https://github.com/tyreil/web_1_project_2/blob/master/assets/fonts/museo/museo-300-webfont.ttf?raw=true") format(ttf);
-}
+} 
 
 body{
   background-image : url("https://github.com/tyreil/web_1_project_2/blob/master/assets/textures/fabric_plaid.png?raw=true");
 }
 
 nav {
-  margin: 30px; 
+   margin: 30px 0px 0px -50px; 
   display: flex; 
   justify-content: space-around;
 }
@@ -16,12 +16,12 @@ nav {
 .topleftcorner {
  display: flex; 
  width: 30%; 
- 
  justify-content: space-between;  
  font-family: 'museo300', museo;
  text-transform: uppercase;
  font-size: 10px;
  align-items: center; 
+ margin-right: 560px; 
 }
 
 .nessst { 
@@ -32,18 +32,138 @@ align-self: center;
 
 .toprightcorner {
   align-self: center; 
+  margin-top: 40px;
 }
 
 .toprightcorner img { 
+ position: relative;
+ left: 45px;
  border-radius: 20%; 
  width: 23px;
- height: 23px;  
+ height: 23px; 
 }
 
 .toprightcorner p {
-font-size: 11px; 
+font-size: 12px; 
 font-family:'museo300', museo; 
-opacity: 0.3;
+opacity: 0.3; 
 justify-content: space-between; 
 }
 
+.main-box{ 
+    width: 1070px;
+    height: 350px; 
+    background-image: url("https://scontent-sea1-1.xx.fbcdn.net/v/t1.15752-9/s2048x2048/45099837_346673216103614_5979961357963886592_n.jpg?_nc_cat=108&_nc_ht=scontent-sea1-1.xx&oh=492a438e357f68186cd3559e40faa473&oe=5C43ED2F");
+    background-size: cover;
+    border: 10px solid white;
+    padding: 25px;
+    margin-left: 40px;
+    margin-top: 10px; 
+}
+
+.big-box img {
+  width: 40px;
+  height: 40px;
+}
+
+.left-arrow {
+  position: absolute; 
+  bottom: -40px;
+  left: 36px;
+}
+
+.right-arrow {
+  position: absolute; 
+  bottom: -45px;
+  right: 39px;
+}
+
+.lower-box {
+  width: 1120px;
+  height: 50px; 
+  background-color: dimgrey;
+  position: absolute;
+  top: 505px;
+  margin-left: 50px;
+}
+
+.lower-box p {
+  color: white;
+  font-size: 25px;
+  display: flex; 
+  justify-content: flex-end; 
+  position: relative;
+  right: 35px; 
+  bottom: 15px;  
+}
+
+.middle-content h3 {
+ text-align: center;
+  padding: 20px; 
+}
+
+.middle-content img {
+  width: 265px; 
+  height: 150px; 
+  margin: 10px;
+  position: relative;
+  left: 40px
+}
+
+.view-more {
+  width: 270px;
+  height: 30px; 
+  background-image: url("https://github.com/tyreil/web_1_project_2/blob/master/assets/textures/az_subtle.png?raw=true");
+position: relative;
+left: 485px;   
+}
+
+.view-more p{
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  position: relative;
+  top: 5px; 
+}
+
+.middle-upper-text {
+  display: flex; 
+  justify-content: center;
+  color: white; 
+  background-color: dimgrey;
+  margin-top: 25px;
+}
+
+.smaller-text {
+  margin-left: 5px; 
+  font-size: 8px;
+  position: relative; 
+  top: 15px;
+}
+
+.bird {
+  width: 26px;
+  height: 20px;
+  position: relative;
+  right: 15px;
+  top: 13px;
+}
+
+.footer {
+  margin-right: 62em;
+  margin-top: 30px; 
+  background-image:url("https://github.com/tyreil/web_1_project_2/blob/master/assets/textures/az_subtle.png?raw=true");
+}
+
+.top-left-footer {
+ display: flex; 
+ width: 30%; 
+ justify-content: space-between;  
+ font-family: 'museo300', museo;
+ text-transform: uppercase;
+ font-size: 10px;
+}
+
+.top-left-footer h3 {
+  padding: 10px;
+}
