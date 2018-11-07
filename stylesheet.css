@@ -7,6 +7,7 @@ body{
   background-image : url("https://github.com/tyreil/web_1_project_2/blob/master/assets/textures/fabric_plaid.png?raw=true");
 }
 
+@media (min-width: 769px) {
 nav {
    margin: 30px 0px 0px -50px; 
   display: flex; 
@@ -17,13 +18,17 @@ nav {
  display: flex; 
  width: 30%; 
  justify-content: space-between;  
- font-family: 'museo300', museo;
  text-transform: uppercase;
  font-size: 10px;
  align-items: center; 
  margin-right: 560px; 
 }
 
+.topleftcorner h4 {
+    font-family: 'museo300', museo;
+    opacity: 0.5; 
+  }  
+  
 .nessst { 
 margin-left: 40px;
 margin-top: 20px; 
@@ -33,6 +38,7 @@ align-self: center;
 .toprightcorner {
   align-self: center; 
   margin-top: 40px;
+  width: 10%;
 }
 
 .toprightcorner img { 
@@ -49,7 +55,7 @@ font-family:'museo300', museo;
 opacity: 0.3; 
 justify-content: space-between; 
 }
-
+  
 .main-box{ 
     width: 1070px;
     height: 350px; 
@@ -100,6 +106,7 @@ justify-content: space-between;
 .middle-content h3 {
  text-align: center;
   padding: 20px; 
+  font-family: 'museo300', museo;
 }
 
 .middle-content img {
@@ -116,14 +123,20 @@ justify-content: space-between;
   background-image: url("https://github.com/tyreil/web_1_project_2/blob/master/assets/textures/az_subtle.png?raw=true");
 position: relative;
 left: 485px;   
+background-color: #b3b3ac;
+background-blend-mode: multiply;
 }
 
-.view-more p{
+.view-more .button {
   color: white;
   font-size: 20px;
-  text-align: center;
   position: relative;
   top: 5px; 
+  left: 80px;
+}
+  
+.view-more:hover {
+	background-color: #000;
 }
 
 .middle-upper-text {
@@ -149,21 +162,88 @@ left: 485px;
   top: 13px;
 }
 
-.footer {
+.left-footer {
+  font-family: 'museo300', museo;
   margin-right: 62em;
   margin-top: 30px; 
   background-image:url("https://github.com/tyreil/web_1_project_2/blob/master/assets/textures/az_subtle.png?raw=true");
+  width: 1272px; 
+  height: 15em; 
+  margin-top: -.2px;
+  background-size: auto; 
+  background-color: #b3b3ac;
+  background-blend-mode: multiply;
 }
 
 .top-left-footer {
  display: flex; 
- width: 30%; 
+ width: 20%; 
  justify-content: space-between;  
  font-family: 'museo300', museo;
  text-transform: uppercase;
  font-size: 10px;
+ margin-left: -10em; 
+ margin-top: 30px;  
+ 
+}
+
+.top-left-footer img{
+  width: 35%;
+  height: 60px;
 }
 
 .top-left-footer h3 {
   padding: 10px;
+}
+
+.left-bottom-footer {
+  position: relative;
+  top: 5.5em;
+  right: 40.5em;
+}
+
+.left-bottom-footer h3 {
+  text-transform: capitalize;
+  font-size: auto; 
+  margin-bottom: -7px;
+}
+
+.left-bottom-footer p {
+  color: white;
+}
+
+.left-bottom-footer input {
+  width: 320px;
+  height: 20px
+}
+
+.middle-footer {
+  width: 350px;
+  position: absolute;
+  left: 500px;
+  top: 80.5em;
+  font-family: 'museo300', museo;
+}
+
+.middle-footer .read-more {
+ text-transform: uppercase;
+ font-size: 18px;
+}
+
+.right-footer img {
+  width: 77px;
+  height: 54px; 
+}
+
+.right-footer {
+  width: 30%;
+  position: relative;
+  left: 57em;
+ bottom: 15.2em; 
+  
+}
+  
+  .right-footer h3 {
+    font-family: 'museo300', museo;
+  }
 }
