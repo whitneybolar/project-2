@@ -84,7 +84,7 @@ justify-content: space-between;
   .wbolar {
     font-size: 15px;
     position: relative;
-    left: 14px; 
+    left: 10px; 
     font-family: 'museo300', sans-serif;
     font-weight: 300px; 
   }
@@ -138,7 +138,7 @@ justify-content: space-between;
 .right-arrow {
   position: absolute; 
   top: 278px;
-  left: 808px; 
+  left: 813px; 
 }
 
 .smaller-left-box {
@@ -303,7 +303,7 @@ justify-content: space-between;
   width: 350px;
   position: absolute;
   left: 500px;
-  top: 69.5em;
+  top: 70.7em;
 }
 
 .middle-footer .read-more {
