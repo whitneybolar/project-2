@@ -73,19 +73,19 @@ justify-content: space-between;
 .left-arrow,
 .right-arrow {
   width: 3%;
-  height: 7%;
+  height: 8%;
 }
 
 .main-box .left-arrow {
-  position: absolute; 
-  bottom: 495px;
-  left: 36px;
+  position: relative; 
+  top: 150px;
+  left: -45px;
 }
 
 .main-box .right-arrow {
-  position: absolute; 
-  bottom: 495px;
-  left: 1190px;
+  position: relative; 
+  top: 150px;
+  left: 1088px;
 }
 
 .lower-box {
