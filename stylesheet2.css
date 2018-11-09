@@ -1,5 +1,5 @@
 @font-face {
-  font-family: "museo 300"; src: url("https://github.com/tyreil/web_1_project_2/blob/master/assets/fonts/museo/museo-300-webfont.ttf?raw=true") format(ttf);
+  font-family: "museo300"; src: url("fonts/museo300.tff") format("truetype");
 } 
 
 body{
@@ -24,7 +24,8 @@ nav {
 }
 
 .topleftcorner h4 {
-    font-family: 'museo300', museo;
+    font-family: 'museo300', sans-serif;
+    font-weight: 300px; 
     opacity: 0.5; 
   }
   
@@ -49,7 +50,8 @@ align-self: center;
 
 .toprightcorner p {
 font-size: 12px; 
-font-family:'museo300', museo; 
+font-family: 'museo300', sans-serif;
+font-weight: 300px; 
 opacity: 0.3; 
 justify-content: space-between; 
 }
@@ -83,7 +85,8 @@ justify-content: space-between;
     font-size: 15px;
     position: relative;
     left: 14px; 
-    font-family:'museo300', museo;
+    font-family: 'museo300', sans-serif;
+    font-weight: 300px; 
   }
   
   .wbolar-com {
@@ -189,7 +192,8 @@ justify-content: space-between;
   .filler {
     margin: 10px; 
     font-size: 16px;
-    font-family: 'museo300', museo;
+    font-family: 'museo300', sans-serif;
+    font-weight: 300px; 
   }
   
   
@@ -206,7 +210,8 @@ justify-content: space-between;
   .middle-portfolio p {
     margin: 7px;
     margin-left: 10px; 
-    font-family: 'museo300', museo;
+    font-family: 'museo300', sans-serif;
+    font-weight: 300px; 
   }
   
  .middle-portfolio img{
@@ -239,7 +244,8 @@ justify-content: space-between;
 }
 
 .left-footer {
-  font-family: 'museo300', museo;
+  font-family: 'museo300', sans-serif;
+  font-weight: 300px; 
   margin-left: 0px; 
   margin-top: -.1px; 
   background-image:url("https://github.com/tyreil/web_1_project_2/blob/master/assets/textures/az_subtle.png?raw=true");
@@ -254,7 +260,8 @@ justify-content: space-between;
  display: flex; 
  width: 20%; 
  justify-content: space-between;  
- font-family: 'museo300', museo;
+ font-family: 'museo300', sans-serif;
+ font-weight: 300px; 
  text-transform: uppercase;
  font-size: 10px;
  margin-left: -17.5em; 
